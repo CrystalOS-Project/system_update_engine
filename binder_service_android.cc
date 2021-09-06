@@ -261,5 +261,4 @@ Status BinderUpdateEngineAndroidService::setPerformanceMode(bool enable) {
     return ErrorPtrToStatus(error);
   return Status::ok();
 }
-
 }  // namespace chromeos_update_engine
